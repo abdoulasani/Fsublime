@@ -919,6 +919,30 @@ input.mail_bt::placeholder {
     color: #f26522;
 }
 
+{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #000; /* Adding a background color to ensure the white text is visible */
+}
+.slogan {
+    font-size: 1rem; /* Reduced font size */
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+    color: #FFFFFF; /* Changed the color to white */
+}
+@media (min-width: 768px) {
+    .slogan {
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 1024px) {
+    .slogan {
+        font-size: 2rem;
+    }
+}
 
 /* footer section end */
 
